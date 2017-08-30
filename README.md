@@ -1,6 +1,6 @@
 **Sample MarkLogic XCC AWS ELB ConnectionProvider**
 
-The XML Contentbase Connector (XCC) is an interface to communicate with a MarkLogic Server from a Java middleware application layer. It provides APIs for
+The [XML Contentbase Connector (XCC)](https://developer.marklogic.com/products/xcc) is an interface to communicate with a MarkLogic Server from a Java middleware application layer. It provides APIs for
 
 * Evaluating stored XQuery programs
 * Dynamic construction and evaluation of XQuery programs from Java code
