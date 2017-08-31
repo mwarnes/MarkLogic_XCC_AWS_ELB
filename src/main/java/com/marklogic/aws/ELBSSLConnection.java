@@ -1,4 +1,4 @@
-package com.marklogic;
+package com.marklogic.aws;
 
 import java.io.IOException;
 import java.net.InetSocketAddress;

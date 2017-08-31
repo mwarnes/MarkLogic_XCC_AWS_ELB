@@ -1,4 +1,4 @@
-package com.marklogic;
+package com.marklogic.aws;
 
 import com.marklogic.io.ResourcePool;
 import com.marklogic.io.SslByteChannel;

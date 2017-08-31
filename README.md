@@ -66,15 +66,15 @@ Sample output when the IP Address associated with the ELB changes shows address 
 ````
 Aug 29, 2017 10:10:33 AM com.marklogic.Main main
 INFO: Open MarkLogic connection 
-Aug 29, 2017 10:10:33 AM com.marklogic.ELBConnectionProvider <init>
+Aug 29, 2017 10:10:33 AM com.marklogic.aws.ELBConnectionProvider <init>
 INFO: constructing new ELBConnectionProvider for MartinW3n-ElasticL-13NX501DWLI3S-1239802618.eu-west-1.elb.amazonaws.com/54.228.210.164:8006
-Aug 29, 2017 8:11:39 PM com.marklogic.ELBConnectionProvider getAddress
+Aug 29, 2017 8:11:39 PM com.marklogic.aws.ELBConnectionProvider getAddress
 INFO: Cached InetAddress 54.228.210.164
-Aug 29, 2017 8:11:39 PM com.marklogic.ELBConnectionProvider getAddress
+Aug 29, 2017 8:11:39 PM com.marklogic.aws.ELBConnectionProvider getAddress
 INFO: Current InetAddress 54.247.182.147
-Aug 29, 2017 8:11:39 PM com.marklogic.ELBConnectionProvider getAddress
+Aug 29, 2017 8:11:39 PM com.marklogic.aws.ELBConnectionProvider getAddress
 INFO: Current and Cached IP Addresses do not match... updating...
-Aug 29, 2017 8:11:39 PM com.marklogic.ELBConnectionProvider getAddress
+Aug 29, 2017 8:11:39 PM com.marklogic.aws.ELBConnectionProvider getAddress
 INFO: Update complete, time=46m/s     
 ````
 
@@ -82,7 +82,7 @@ INFO: Update complete, time=46m/s
 
 1. The sample ELB ConnectionProviders are provided "asis" and are not supported by MarkLogic. It is your responsibility to review and test thoroughly before using them in a production environment.
 2. Both ConnectionProviders, as with the supplied provider, implement the SingleHostAddress class which does not make use of the multiple IP address redundancy supplied by AWS ELB. Time permitting I may update this in the future.
-3. Feel free to ForK, Improve and Share any improvements or updates.
+3. Feel free to Fork, improve and share any improvements or updates.
 
 
 

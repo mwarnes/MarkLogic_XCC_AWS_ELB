@@ -1,5 +1,6 @@
 package com.marklogic;
 
+import com.marklogic.aws.ELBSSLConnectionProvider;
 import com.marklogic.xcc.ContentSource;
 import com.marklogic.xcc.ContentSourceFactory;
 import com.marklogic.xcc.SecurityOptions;
